@@ -35,6 +35,10 @@ const Popular = () => {
           pagination: false,
           drag: "free",
           gap: "2rem",
+          autoplay: true,
+          snap: true,
+          loop: true,
+          interval: "3000",
         }}
       >
         {popular?.map((recipe) => (
